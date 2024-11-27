@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CT.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal</title>
+</head>
+<body>
+    <div class="calc">
+        <form name="form">
+        <input type="text" name="text" id="text">
+    </form>
+
+<div class="clear">
+    <div class="col1"><input type="button" value="C" class="btn1" onclick="clean()"></div>
+    <div class="col0">Ahmed</div>
+    <div class="col1"><input type="button" value="Del" class="btn1" onclick="back()"></div>
+    <div class="col1"><input type="button" value="÷" class="btn1" onclick="insert('/')"></div>
+</div>
+
+<div class="clear">
+    <div class="col1"><input type="button" value="7" class="btn" onclick="insert(7)"></div>
+    <div class="col1"><input type="button" value="8" class="btn" onclick="insert(8)"></div>
+    <div class="col1"><input type="button" value="9" class="btn"onclick="insert(9)"></div>
+    <div class="col1"><input type="button" value="×" class="btn1" onclick="insert('*')"></div>
+</div>
+
+<div class="clear">
+    <div class="col1"><input type="button" value="4" class="btn" onclick="insert(4)"></div>
+    <div class="col1"><input type="button" value="5" class="btn" onclick="insert(5)"></div>
+    <div class="col1"><input type="button" value="6" class="btn" onclick="insert(6)"></div>
+    <div class="col1"><input type="button" value="-" class="btn1" onclick="insert('-')"></div>
+</div>
+
+<div class="clear">
+    <div class="col1"><input type="button" value="1" class="btn" onclick="insert(1)"></div>
+    <div class="col1"><input type="button" value="2" class="btn" onclick="insert(2)"></div>
+    <div class="col1"><input type="button" value="3" class="btn" onclick="insert(3)"></div>
+    <div class="col1"><input type="button" value="+" class="btn1" onclick="insert('+')"></div>
+</div>
+
+<div class="clear">
+    <div class="col1"><input type="button" value="." class="btn" onclick="insert('.')"></div>
+    <div class="col1"><input type="button" value="0" class="btn" onclick="insert(0)"></div>
+    <div class="col2"><input type="button" value="=" class="btn1" onclick="eq()"></div>
+</div>
+
+    </div>
+    <script src="CT.js"></script>
+</body>
+</html>

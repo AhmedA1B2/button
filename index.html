@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <link rel="stylesheet" href="Tb.css">
+</head>
+<body id="themeb">
+<!--+-->
+    <div class="pluss">
+<button id="plus" onclick="getplus()">+</button>
+
+<button class="hide" onclick="" id="calculator"><img onclick="oncal()" id="calculator" src="Calculator_41154.png"></button>
+
+<button  class="hide" id="contact" onclick="SM1()"><img src="I.png" id="contact" onclick=""></button>
+
+<button  class="hide" id="theme" onclick="themebody()"><img src="theme.png" id="theme"></button>
+
+<button  class="hide" id="Note" onclick="SN()"><img src="Notes.png" id="Note"></button>
+
+
+</div>
+<!--i-->
+
+<div id="Sma" class="hide">
+    <a href="https://www.facebook.com/profile.php?id=100041628764084" ><img src="face.png" id="SM"></a>
+    <a href="https://www.instagram.com/aohomoeod2004/" ><img src="instagram.png" id="SM2"></a>
+    <a href="" ><img src="Twitter.png" id="SM3"></a>
+</div>
+
+
+<!--Calculater-->
+
+<div class="hide" id="calc" >
+    <form name="form">
+    <input type="text" name="text" id="text">
+</form>
+
+<div class="clear">
+<div class="col1"><input type="button" value="C" class="btn1" onclick="clean()"></div>
+<div class="col0">Ahmed</div>
+<div class="col1"><input type="button" value="Del" class="btn1" onclick="back()"></div>
+<div class="col1"><input type="button" value="÷" class="btn1" onclick="insert('/')"></div>
+</div>
+
+<div class="clear">
+<div class="col1"><input type="button" value="7" class="btn" onclick="insert(7)"></div>
+<div class="col1"><input type="button" value="8" class="btn" onclick="insert(8)"></div>
+<div class="col1"><input type="button" value="9" class="btn"onclick="insert(9)"></div>
+<div class="col1"><input type="button" value="×" class="btn1" onclick="insert('*')"></div>
+</div>
+
+<div class="clear">
+<div class="col1"><input type="button" value="4" class="btn" onclick="insert(4)"></div>
+<div class="col1"><input type="button" value="5" class="btn" onclick="insert(5)"></div>
+<div class="col1"><input type="button" value="6" class="btn" onclick="insert(6)"></div>
+<div class="col1"><input type="button" value="-" class="btn1" onclick="insert('-')"></div>
+</div>
+
+<div class="clear">
+<div class="col1"><input type="button" value="1" class="btn" onclick="insert(1)"></div>
+<div class="col1"><input type="button" value="2" class="btn" onclick="insert(2)"></div>
+<div class="col1"><input type="button" value="3" class="btn" onclick="insert(3)"></div>
+<div class="col1"><input type="button" value="+" class="btn1" onclick="insert('+')"></div>
+</div>
+
+<div class="clear">
+<div class="col1"><input type="button" value="." class="btn" onclick="insert('.')"></div>
+<div class="col1"><input type="button" value="0" class="btn" onclick="insert(0)"></div>
+<div class="col2"><input type="button" value="=" class="btn1" onclick="eq()"></div>
+</div>
+
+</div>
+
+<!--Notes-->
+<div class="hide" id="nsby">
+<div class="notesbody">
+    <h1><img src="Notes.png" class="imgn"> Note<span>s</span></h1>
+    <button class="btnN"><img src="edit.png" class="imge">Create <span>Notees</span></button>
+    <div class="Notes">
+        
+    </div>
+</div></div>
+
+
+
+
+<script src="Tb.js"></script>
+</body>
+</html>
